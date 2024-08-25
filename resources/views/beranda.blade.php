@@ -144,7 +144,7 @@
 <section id="features" class="features section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
+    <div class="container section-title">
         <h2>Berita Terbaru</h2>
         <p>Terus update dengan berita terbaru! Dapatkan informasi terkini di sini.</p>
     </div><!-- End Section Title -->
