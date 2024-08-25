@@ -3,17 +3,16 @@
 @section('content')
 <section id="hero" class="hero section">
     <div class="hero-bg">
-        <img src="assets/img/hero-bg-light.webp" alt="">
+        <img src="https://img.freepik.com/free-photo/hacker-hood-stealing-data-from-server-room-cybercrime-concept_1142-58515.jpg?t=st=1724609119~exp=1724612719~hmac=0ec2ae27442bb53dc14c22a1342cd69db6215d91c54d3f2564f7caf3aed33c07&w=740" alt="">
     </div>
     <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h1 data-aos="fade-up">CSIRT <span>Lampung Timur</span></h1>
             <p data-aos="fade-up" data-aos-delay="100">CSIRT (Computer Security Incident Response Team) adalah tim yang menangani insiden keamanan siber, memberikan panduan, dan menyediakan sumber daya untuk meningkatkan keamanan dan respons insiden di organisasi<br></p>
-            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="100">
                 <a href="{{ route('profil') }}" class="btn-get-started">Selengkapnya</a>
                 <a href="/aduan" class="btn-watch-video d-flex align-items-center"><i class="bi bi-exclamation-octagon"></i><span>Lapor Insiden</span></a>
             </div>
-            <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
     </div>
 </section><!-- /Hero Section -->
@@ -145,7 +144,7 @@
 <section id="features" class="features section">
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
         <h2>Berita Terbaru</h2>
         <p>Terus update dengan berita terbaru! Dapatkan informasi terkini di sini.</p>
     </div><!-- End Section Title -->
