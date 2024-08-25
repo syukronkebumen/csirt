@@ -16,7 +16,7 @@
     <!-- Open Graph Meta Tags untuk Social Media -->
     <meta property="og:title" content="PollingIndependent">
     <meta property="og:description" content="Situs polling independen terpercaya, menyajikan survei objektif dan analisis akurat tentang isu-isu terkini untuk membantu Anda membuat keputusan yang baik">
-    <meta property="og:image" content="{{ url('assets/img/favicon.png') }}">
+    <meta property="og:image" content="{{ url('assets/img/logo-csirt-lamtim.png') }}">
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
 
@@ -50,7 +50,7 @@
 
     {{-- ##### --}}
     <!-- Favicons -->
-    <link href="{{ asset('assets/img/favicon.png') }}" rel="icon">
+    <link href="{{ asset('assets/img/logo-csirt-lamtim.png') }}" rel="icon">
     <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Fonts -->
@@ -78,7 +78,7 @@
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
             <a href="/" class="logo d-flex align-items-center me-auto">
-                <img src="{{ asset('assets/img/favicon.png') }}" alt="">
+                <img src="{{ asset('assets/img/logo-csirt-lamtim.png') }}" alt="">
                 <h1 class="sitename">CSIRT LamTim</h1>
             </a>
 

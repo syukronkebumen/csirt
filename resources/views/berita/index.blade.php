@@ -22,7 +22,7 @@
         <div class="row mb-5 mt-3">
             <div class="card my-4">
                 <div class="card">
-                    <img src="https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169863.jpg?w=740&t=st=1724605200~exp=1724605800~hmac=718df769a9b979c22394fc92bd9faaf358a62c5026d106348a0a247b9d1a003f" alt="Peringatan Keamanan" class="img-fluid" style="max-height: 400px; object-fit: cover">
+                    <img src="https://img.freepik.com/free-photo/hacker-hood-stealing-data-from-server-room-cybercrime-concept_1142-58515.jpg?t=st=1724609119~exp=1724612719~hmac=0ec2ae27442bb53dc14c22a1342cd69db6215d91c54d3f2564f7caf3aed33c07&w=740" alt="Peringatan Keamanan" class="img-fluid" style="max-height: 400px; object-fit: cover">
                 </div>
 
                 <div class="card-body text-center">
