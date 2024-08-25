@@ -89,23 +89,6 @@
                     <li><a href="/aduan">Aduan Siber</a></li>
                     <li><a href="/layanan">Layanan</a></li>
                     <li><a href="/berita">Artikel</a></li>
-                    {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li> --}}
                     <li><a href="/kontak">Kontak</a></li>
                     <li><a href="/docs">RFC2350</a></li>
                 </ul>
@@ -239,5 +222,32 @@
         metaOgUrl.setAttribute('content', currentUrl);
         document.head.appendChild(metaOgUrl);
     }
+    // Select all the links inside the navmenu
+    // Select all the links inside the navmenu
+    const navLinks = document.querySelectorAll('#navmenu ul li a');
+
+    // Function to set the active class based on the current URL
+    function setActiveClass() {
+        const currentPath = window.location.pathname; // Get the current path
+        let activeSet = false;
+
+        // Loop through each link
+        navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.classList.add('active');
+                activeSet = true;
+            } else {
+                link.classList.remove('active');
+            }
+        });
+
+        // If no link matches the current path, set "Beranda" as active
+        if (!activeSet) {
+            navLinks[0].classList.add('active'); // Assuming "Beranda" is the first link
+        }
+    }
+
+    // Run the function on page load
+    window.onload = setActiveClass;
 </script>
 </html>
