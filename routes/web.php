@@ -11,13 +11,20 @@
 |
 */
 
+use App\Http\Controllers\Aduan\AduanController;
+use App\Http\Controllers\Berita\BeritaController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CandidateController;
 use App\Http\Controllers\ChartController;
 use App\Http\Controllers\ChoiceController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Docs\DocsController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Kontak\KontakController;
+use App\Http\Controllers\Layanan\LayananController;
+use App\Http\Controllers\Profil\ProfilController;
 use App\Http\Controllers\UserController;
+use Illuminate\Support\Facades\Route;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 // Route::get('/', function () {
@@ -53,3 +60,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/hasil-polling', [ChartController::class, 'index'])->name('hasil-polling');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+// Profil
+Route::get('/profil', [ProfilController::class, 'index'])->name('profil');
+Route::get('/layanan', [LayananController::class, 'index'])->name('layanan');
+Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
+Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
+Route::get('/docs', [DocsController::class, 'index'])->name('docs');
+Route::get('/aduan', [AduanController::class, 'index'])->name('aduan');

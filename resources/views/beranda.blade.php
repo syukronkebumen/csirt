@@ -10,8 +10,8 @@
             <h1 data-aos="fade-up">CSIRT <span>Lampung Timur</span></h1>
             <p data-aos="fade-up" data-aos-delay="100">CSIRT (Computer Security Incident Response Team) adalah tim yang menangani insiden keamanan siber, memberikan panduan, dan menyediakan sumber daya untuk meningkatkan keamanan dan respons insiden di organisasi<br></p>
             <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                <a href="#about" class="btn-get-started">Selengkapnya</a>
-                <a href="/hasil-polling" class="btn-watch-video d-flex align-items-center"><i class="bi bi-exclamation-octagon"></i><span>Lapor Insiden</span></a>
+                <a href="{{ route('profil') }}" class="btn-get-started">Selengkapnya</a>
+                <a href="/aduan" class="btn-watch-video d-flex align-items-center"><i class="bi bi-exclamation-octagon"></i><span>Lapor Insiden</span></a>
             </div>
             <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>

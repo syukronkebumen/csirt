@@ -71,10 +71,10 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
-<body class="index-page">
+<body class="service-details-page">
     
     {{-- #### --}}
-    <header id="header" class="header d-flex align-items-center fixed-top">
+    <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
             <a href="/" class="logo d-flex align-items-center me-auto">
@@ -85,10 +85,10 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="/" class="active">Beranda</a></li>
-                    <li><a href="#about">Profil</a></li>
-                    <li><a href="#features">Aduan Siber</a></li>
-                    <li><a href="#services">Layanan</a></li>
-                    <li><a href="#services">Artikel</a></li>
+                    <li><a href="/profil">Profil</a></li>
+                    <li><a href="/aduan">Aduan Siber</a></li>
+                    <li><a href="/layanan">Layanan</a></li>
+                    <li><a href="/berita">Artikel</a></li>
                     {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">Dropdown 1</a></li>
@@ -106,8 +106,8 @@
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li> --}}
-                    <li><a href="#contact">Kontak</a></li>
-                    <li><a href="#contact">RFC2350</a></li>
+                    <li><a href="/kontak">Kontak</a></li>
+                    <li><a href="/docs">RFC2350</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -143,13 +143,13 @@
                 <div class="col-lg-2 col-md-3 footer-links">
                     <h4>Links</h4>
                     <ul>
-                        <li><a href="#">Beranda</a></li>
-                        <li><a href="#">Profil</a></li>
-                        <li><a href="#">Aduan Siber</a></li>
-                        <li><a href="#">Layanan</a></li>
-                        <li><a href="#">Artikel</a></li>
-                        <li><a href="#">Kontak</a></li>
-                        <li><a href="#">RFC2350</a></li>
+                        <li><a href="/">Beranda</a></li>
+                        <li><a href="/profil">Profil</a></li>
+                        <li><a href="/aduan">Aduan Siber</a></li>
+                        <li><a href="/layanan">Layanan</a></li>
+                        <li><a href="/berita">Artikel</a></li>
+                        <li><a href="/kontak">Kontak</a></li>
+                        <li><a href="/docs">RFC2350</a></li>
                     </ul>
                 </div>
 
