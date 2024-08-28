@@ -21,6 +21,7 @@
     <div class="container section-title" data-aos="fade-up">
         <h2>RFC2350</h2>
         <p>Dibawah ini merupakan dokumen dari RFC2350</p>
+        <p>Untuk melihat dokumen PGP key bisa di lihat <a href="{{ asset('pdf/pubkey.asc') }}" target="_blank">disini</a></p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
