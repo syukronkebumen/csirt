@@ -73,14 +73,16 @@
                     <li><i class="bi bi-check-circle"></i>Penyuluhan dan pelatihan keamanan siber.</li>
                 </ul>
 
-                <p><strong>Visi:</strong> Menjadi garda terdepan dalam menjaga keamanan informasi dan teknologi di lingkungan pemerintahan Kabupaten Lampung Timur, serta meningkatkan kesadaran dan ketahanan siber di wilayah tersebut.</p>
+                <p><strong>Visi:</strong> Visi LamTim-CSIRT adalah terwujudnya ketahanan siber di lingkungan Pemerintah Daerah Kabupaten Lampung Timur yang andal dan profesional.
+
+                </p>
 
                 <p><strong>Misi:</strong></p>
+                <p>Misi dari LamTim-CSIRT, yaitu :</p>
                 <ul>
-                    <li><i class="bi bi-check-circle"></i>Membangun sistem deteksi dan respon insiden yang handal dan efektif.</li>
-                    <li><i class="bi bi-check-circle"></i>Mengembangkan kerjasama dengan berbagai pihak untuk meningkatkan keamanan siber di Lampung Timur.</li>
-                    <li><i class="bi bi-check-circle"></i>Memberikan edukasi dan pelatihan terkait keamanan siber kepada instansi pemerintah dan masyarakat.</li>
-                    <li><i class="bi bi-check-circle"></i>Menyediakan laporan dan rekomendasi terkait insiden keamanan siber untuk meningkatkan langkah-langkah pencegahan di masa mendatang.</li>
+                    <li><i class="bi bi-check-circle"></i>Membangun, mengkoordinasikan, mengolaborasikan dan mengoperasionalkan penanggulangan dan pemulihan terhadap insiden keamanan siber pada lingkungan Pemerintah Daerah Kabupaten Lampung Timur.</li>
+                    <li><i class="bi bi-check-circle"></i>Membangun kerja sama dalam rangka penanggulangan dan pemulihan insiden kemanan siber di lingkungan Pemerintah Daerah Kabupaten Lampung Timur.</li>
+                    <li><i class="bi bi-check-circle"></i>Membangun kapasitas sumber daya penganggulangan dan pemulihan insiden keamanan siber di lingkungan Pemerintah Daerah Kabupaten Lampung Timur.</li>
                 </ul>
             </div>
 
