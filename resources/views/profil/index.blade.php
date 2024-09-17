@@ -73,16 +73,34 @@
                     <li><i class="bi bi-check-circle"></i>Penyuluhan dan pelatihan keamanan siber.</li>
                 </ul>
 
-                <p><strong>Visi:</strong> Visi LamTim-CSIRT adalah terwujudnya ketahanan siber di lingkungan Pemerintah Daerah Kabupaten Lampung Timur yang andal dan profesional.
-
+                <p><strong>Visi:</strong> 
+                    Visi LamTim-CSIRT adalah “Menjadi garda terdepan dalam melindungi aset
+                    informasi dan infrastruktur teknologi dari ancaman siber melalui respons insiden
+                    yang cepat, tepat, dan proaktif, serta meningkatkan keamanan digital secara
+                    keseluruhan”.
                 </p>
 
                 <p><strong>Misi:</strong></p>
                 <p>Misi dari LamTim-CSIRT, yaitu :</p>
                 <ul>
-                    <li><i class="bi bi-check-circle"></i>Membangun, mengkoordinasikan, mengolaborasikan dan mengoperasionalkan penanggulangan dan pemulihan terhadap insiden keamanan siber pada lingkungan Pemerintah Daerah Kabupaten Lampung Timur.</li>
-                    <li><i class="bi bi-check-circle"></i>Membangun kerja sama dalam rangka penanggulangan dan pemulihan insiden kemanan siber di lingkungan Pemerintah Daerah Kabupaten Lampung Timur.</li>
-                    <li><i class="bi bi-check-circle"></i>Membangun kapasitas sumber daya penganggulangan dan pemulihan insiden keamanan siber di lingkungan Pemerintah Daerah Kabupaten Lampung Timur.</li>
+                    <li><i class="bi bi-check-circle"></i>Mencegah dan Mengurangi Dampak Insiden: Meningkatkan
+                        kewaspadaan terhadap ancaman siber dengan proaktif dalam mendeteksi
+                        dan mencegah insiden keamanan sebelum terjadi, serta meminimalkan
+                        dampak insiden yang sudah terjadi.</li>
+                    <li><i class="bi bi-check-circle"></i>Respon Cepat dan Efektif: Menyediakan layanan respons insiden yang
+                        cepat dan efisien untuk mengatasi ancaman siber, serta memulihkan sistem
+                        dan data dengan cepat setelah terjadi insiden.</li>
+                    <li><i class="bi bi-check-circle"></i>Peningkatan Kesadaran dan Kapasitas Keamanan: Memberikan
+                        pelatihan dan sosialisasi kepada seluruh pemangku kepentingan mengenai
+                        pentingnya keamanan siber dan langkah-langkah pencegahan yang dapat
+                        dilakukan.</li>
+                    <li><i class="bi bi-check-circle"></i>Kolaborasi dan Koordinasi: Bekerja sama dengan tim keamanan lain, baik
+                        di dalam maupun luar organisasi, untuk berbagi informasi dan strategi dalam
+                        menangani insiden keamanan siber secara efektif.</li>
+                    <li><i class="bi bi-check-circle"></i>Pengembangan Kebijakan dan Prosedur Keamanan: Merumuskan dan
+                        mengimplementasikan kebijakan serta prosedur keamanan yang
+                        berkelanjutan untuk memastikan perlindungan optimal terhadap aset
+                        informasi dan infrastruktur teknologi.</li>
                 </ul>
             </div>
 
