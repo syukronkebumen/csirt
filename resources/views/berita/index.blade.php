@@ -59,7 +59,7 @@
                             </small>
                         </p>
                         <p class="card-text">{!! Str::limit( $item->deskripsi, 150) !!}</p>
-                        <a href="#!" class="btn btn-primary">Selengkapnya</a>
+                        <a href="{{ route('berita-detail', $item->slug) }}" class="btn btn-primary">Selengkapnya</a>
                     </div>
                 </div>
             </div>
