@@ -66,6 +66,8 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard
 Route::get('/profil', [ProfilController::class, 'index'])->name('profil');
 Route::get('/layanan', [LayananController::class, 'index'])->name('layanan');
 Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
+Route::get('/berita-detail/{slug}', [BeritaController::class, 'show'])->name('berita-detail');
+
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
 Route::get('/docs', [DocsController::class, 'index'])->name('docs');
 Route::get('/aduan', [AduanController::class, 'index'])->name('aduan');

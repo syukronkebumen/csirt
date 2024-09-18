@@ -165,7 +165,7 @@
                         <p class="card-text mb-auto">
                             {!! Str::limit( $item->deskripsi, 91) !!}
                         </p>
-                        <a href="#">Baca selengkapnya</a>
+                        <a href="{{ route('berita-detail', $item->slug) }}">Baca selengkapnya</a>
                     </div>
                     <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="{{ '/storage/'.$item->gambar }}" data-holder-rendered="true" style="width: 200px; height: 250px;">
                 </div>
