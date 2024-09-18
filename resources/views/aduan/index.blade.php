@@ -20,14 +20,19 @@
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
         <h2>Aduan Siber</h2>
-        <p>Berikut ini adalah daftar aduan siber yang telah diterima</p>
+        <p>LamTim-CSIRT akan membantu terkait untuk melakukan penanggulangan dan pemulihan insiden keamanan siber</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-4 mt-1">
-            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-                <img src="{{ asset('assets/img/under-development/under-dev.jpg') }}" frameborder="0" style="border:0; width: 100%; height: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </div><!-- End Google Maps -->
+            <div class="col-lg-12 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+                <p>Untuk pelaporan mengenai insiden siber yang terjadi, tim  LamTim-CSIRT telah membuat mekanisme pelaporan melalui
+                    <br><br>
+                    Email : <a href="#!">csirt@lampungprov.go.id</a>
+                    <br><br>
+                    Silahkan hubungi kami untuk melakukan aduan siber sesuai dengan prosedur pelaporan insiden.
+                </p>
+            </div>
         </div>
     </div>
 </section>
