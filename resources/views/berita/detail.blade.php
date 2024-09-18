@@ -8,7 +8,7 @@
         <h1 class="mb-2 mb-lg-0">Detail</h1>
         <nav class="breadcrumbs">
             <ol>
-                <li><a href="index.html">Artikel</a></li>
+                <li><a href="/berita">Artikel</a></li>
                 <li class="current">{{ $detail->nama_kategori }}</li>
             </ol>
         </nav>
