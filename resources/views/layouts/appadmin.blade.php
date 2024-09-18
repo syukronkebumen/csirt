@@ -50,6 +50,10 @@
 
     <!-- Main CSS File -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+
+    {{-- CKEditor CDN --}}
+    <script src="https://cdn.ckeditor.com/ckeditor5/37.0.1/classic/ckeditor.js"></script>
+    
 </head>
 <body class="index-page">
     <div id="app">
@@ -79,7 +83,7 @@
                                 <a href="{{route('users.index')}}" class="nav-link">Managemen Pengguna</a>
                             </li> --}}
                             <li class="nav-item">
-                                <a href="{{route('candidates.index')}}" class="nav-link">Managemen Kandidat</a>
+                                <a href="{{route('artikel.index')}}" class="nav-link">Artikel</a>
                             </li>
                         @elseif(Auth::user()->roles == '["VOTER"]')
                             <li class="nav-item">
@@ -130,6 +134,13 @@
 
     <!-- Main JS File -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#deskripsi' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+        </script>
     @stack('script')
 </body>
 </html>

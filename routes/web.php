@@ -11,6 +11,7 @@
 |
 */
 
+use App\Http\Controllers\Admin\Artikel\ArtikelController;
 use App\Http\Controllers\Aduan\AduanController;
 use App\Http\Controllers\Berita\BeritaController;
 use App\Http\Controllers\LoginController;
@@ -39,8 +40,8 @@ Route::match(['get', 'post'], '/register', function () {
 
 // Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('redirect/{driver}', 'Auth\LoginController@redirectToProvider')->name('login.provider');
-Route::get('{driver}/callback', 'Auth\LoginController@handleProviderCallback')->name('login.callback');
+// Route::get('redirect/{driver}', 'Auth\LoginController@redirectToProvider')->name('login.provider');
+// Route::get('{driver}/callback', 'Auth\LoginController@handleProviderCallback')->name('login.callback');
 
 Route::resource('users', UserController::class);
 
@@ -68,3 +69,6 @@ Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
 Route::get('/docs', [DocsController::class, 'index'])->name('docs');
 Route::get('/aduan', [AduanController::class, 'index'])->name('aduan');
+
+//Admin Artikel
+Route::resource('/artikel', ArtikelController::class)->middleware('auth');

@@ -20,6 +20,6 @@ class DashboardController extends Controller
 
     public function index()
     {
-        return view('candidates.index');
+        return view('admin.berita.index');
     }
 }
