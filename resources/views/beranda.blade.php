@@ -151,94 +151,26 @@
 
     <div class="container">
         <div class="row mb-2">
+            @foreach ($artikel as $item)
             <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                 <div class="card flex-md-row mb-4 box-shadow h-md-250">
                     <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-primary">Peringatan Keamanan</strong>
+                        <strong class="d-inline-block mb-2 text-primary">{{ $item->nama_kategori }}</strong>
                         <h3 class="mb-0">
                             <a class="text-dark" href="#">
-                                {{ Str::limit('Imbauan Keamanan Modus Penipuan Menggunakan Undangan Pernikahan Elektronik APK', 35); }}
+                                {{ Str::limit($item->judul, 35); }}
                             </a>
                         </h3>
-                        <div class="mb-1 text-muted">07 Mei 2024</div>
+                        <div class="mb-1 text-muted">{{ \Carbon\Carbon::parse($item->created_at)->format('j F Y') }}</div>
                         <p class="card-text mb-auto">
-                            {{ Str::limit('
-                        Waspadai modus penipuan menggunakan berkas Android Package Kit (.apk) undangan pernikahan elektronik. 
-                        Berkas .apk tersebut dikirimkan melalui aplikasi perpesanan WhatsApp. 
-                        Jika penerima pesan mengakses berkas .apk tersebut maka penjahat akan…
-                    ', 91) }}
+                            {!! Str::limit( $item->deskripsi, 91) !!}
                         </p>
                         <a href="#">Baca selengkapnya</a>
                     </div>
-                    <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?t=st=1724456775~exp=1724460375~hmac=059577e688ae702ecff63f54d2ddbfd5984ca51cc0a55f3c694adf941528403c&w=740" data-holder-rendered="true" style="width: 200px; height: 250px;">
+                    <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="{{ '/storage/'.$item->gambar }}" data-holder-rendered="true" style="width: 200px; height: 250px;">
                 </div>
             </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-success">Web Programming</strong>
-                        <h3 class="mb-0">
-                            <a class="text-dark" href="#">
-                                {{ Str::limit('Tindakan Penegak Hukum Mendorong Kelompok Ransomware Melakukan Surgical Attack', 35); }}
-                            </a>
-                        </h3>
-                        <div class="mb-1 text-muted">10 Januari 2024</div>
-                        <p class="card-text mb-auto">
-                            {{ Str::limit('
-                        Banyaknya tindakan penegakan hukum yang mengarah pada penangkapan dan penghapusan 
-                        ransomware pada tahun 2021 telah memaksa threat actor untuk mempersempit cakupan 
-                        penargetan mereka dan memaksimalkan efisiensi operasi yang dilakukan. Sebagian…
-                    ', 91) }}
-                        </p>
-                        <a href="#">Baca selengkapnya</a>
-                    </div>
-                    <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?t=st=1724456775~exp=1724460375~hmac=059577e688ae702ecff63f54d2ddbfd5984ca51cc0a55f3c694adf941528403c&w=740" data-holder-rendered="true" style="width: 200px; height: 250px;">
-                </div>
-            </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-primary">Peringatan Keamanan</strong>
-                        <h3 class="mb-0">
-                            <a class="text-dark" href="#">
-                                {{ Str::limit('Imbauan Keamanan Modus Penipuan Menggunakan Undangan Pernikahan Elektronik APK', 35); }}
-                            </a>
-                        </h3>
-                        <div class="mb-1 text-muted">07 Mei 2024</div>
-                        <p class="card-text mb-auto">
-                            {{ Str::limit('
-                          Waspadai modus penipuan menggunakan berkas Android Package Kit (.apk) undangan pernikahan elektronik. 
-                          Berkas .apk tersebut dikirimkan melalui aplikasi perpesanan WhatsApp. 
-                          Jika penerima pesan mengakses berkas .apk tersebut maka penjahat akan…
-                      ', 91) }}
-                        </p>
-                        <a href="#">Baca selengkapnya</a>
-                    </div>
-                    <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?t=st=1724456775~exp=1724460375~hmac=059577e688ae702ecff63f54d2ddbfd5984ca51cc0a55f3c694adf941528403c&w=740" data-holder-rendered="true" style="width: 200px; height: 250px;">
-                </div>
-            </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-success">Web Programming</strong>
-                        <h3 class="mb-0">
-                            <a class="text-dark" href="#">
-                                {{ Str::limit('Tindakan Penegak Hukum Mendorong Kelompok Ransomware Melakukan Surgical Attack', 35); }}
-                            </a>
-                        </h3>
-                        <div class="mb-1 text-muted">10 Januari 2024</div>
-                        <p class="card-text mb-auto">
-                            {{ Str::limit('
-                          Banyaknya tindakan penegakan hukum yang mengarah pada penangkapan dan penghapusan 
-                          ransomware pada tahun 2021 telah memaksa threat actor untuk mempersempit cakupan 
-                          penargetan mereka dan memaksimalkan efisiensi operasi yang dilakukan. Sebagian…
-                      ', 91) }}
-                        </p>
-                        <a href="#">Baca selengkapnya</a>
-                    </div>
-                    <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://img.freepik.com/free-photo/html-css-collage-concept-with-hacker_23-2150061984.jpg?t=st=1724456775~exp=1724460375~hmac=059577e688ae702ecff63f54d2ddbfd5984ca51cc0a55f3c694adf941528403c&w=740" data-holder-rendered="true" style="width: 200px; height: 250px;">
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 

@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Artikel;
 use App\Models\Candidate;
 use App\Models\User;
 use Illuminate\Http\Request;
+
+use function Laravel\Prompts\select;
 
 class HomeController extends Controller
 {
@@ -35,6 +38,15 @@ class HomeController extends Controller
         // $candidates = Candidate::with('users')->paginate(5);
         // $jumlah = User::where('status','SUDAH')->count();
         $candidates = Candidate::get();
-        return view('beranda',compact('candidates'));
+        $artikel = Artikel::leftjoin('kategori_artikel','kategori_artikel.id','=','artikel.kategori_id')
+                            ->select(
+                                'kategori_artikel.nama as nama_kategori',
+                                'artikel.judul',
+                                'artikel.slug',
+                                'artikel.deskripsi',
+                                'artikel.gambar'
+                            )
+                            ->get();
+        return view('beranda',compact('candidates','artikel'));
     }
 }
