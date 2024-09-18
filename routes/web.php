@@ -23,6 +23,7 @@ use App\Http\Controllers\Docs\DocsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Kontak\KontakController;
 use App\Http\Controllers\Layanan\LayananController;
+use App\Http\Controllers\Panduan\PanduanController;
 use App\Http\Controllers\Profil\ProfilController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -71,6 +72,7 @@ Route::get('/berita-detail/{slug}', [BeritaController::class, 'show'])->name('be
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
 Route::get('/docs', [DocsController::class, 'index'])->name('docs');
 Route::get('/aduan', [AduanController::class, 'index'])->name('aduan');
+Route::get('/panduan', [PanduanController::class, 'index'])->name('panduan');
 
 //Admin Artikel
 Route::resource('/artikel', ArtikelController::class)->middleware('auth');

@@ -90,6 +90,7 @@
                     <li><a href="/layanan">Layanan</a></li>
                     <li><a href="/berita">Artikel</a></li>
                     <li><a href="/kontak">Kontak</a></li>
+                    <li><a href="/panduan">Panduan</a></li>
                     <li><a href="/docs">RFC2350</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
